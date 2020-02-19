@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>The Books Details</title>
+</head>
+
+<body>
+    <h1>New Book</h1>
+    <form method="POST" action="/Books">
+        <table>
+            <tr>
+                <td>
+                    <label>Title</label>
+                </td>
+                <td>
+                    <input type="text" name='name'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Author</label>
+                </td>
+                <td>
+                    <input type="text" name='author'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Rating</label>
+                </td>
+                <td>
+                    <input type="text" name='rating'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Publish Date</label>
+                </td>
+                <td>
+                    <input type="Date" name='publishdate'>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Description </label>
+                </td>
+                <td>
+                    <textarea name='description'></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/">Cancel</a>
+                </td>
+                <td>
+                    <button type="submit">Create</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
